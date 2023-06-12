@@ -21,26 +21,6 @@ if (age1 >= 18 && age2 < 18) {
 
 
 
-/*
-//  Condition switch
-switch (true) {
-    case age1 >= 18 && age2 < 18  :
-        console.log("Votre est de " + age1 + "ans, Donc vous etes  majeur");
-        console.log("Votre est de " + age2 + "ans, Donc vous etes  mineur");
-        break;
-    case age1 >= 18 && age2 >= 18:
-        console.log("Votre age est de " + age1 + "ans, Donc vous etes  majeur");
-        console.log("Votre age est de " + age2 + "ans, Donc vous etes  majeur");
-        break;  
-    case age1 < 18 && age2 >= 18:
-        console.log("Votre age est de " + age1 + "ans, Donc vous etes  mineur");
-        console.log("Votre age est de " + age2 + "ans, Donc vous etes  majeur");
-        break;
-    default:
-        console.log("Votre age est de " + age1 + "ans, Donc vous etes  mineur");
-        console.log("Votre age est de " + age2 + "ans, Donc vous etes  mineur");            
-}
-*/
                /*********Exercice2********/
 
  // Tableau d'objet de dix etudiants
