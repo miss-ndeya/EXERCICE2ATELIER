@@ -3,7 +3,7 @@
 let age1 = 12;
 let age2 = 10;
 
-/*
+
 //  Condition multiples
 if (age1 >= 18 && age2 < 18) {
     console.log("Votre age est de " + age1 + "ans, Donc vous etes  majeur");
@@ -18,8 +18,10 @@ if (age1 >= 18 && age2 < 18) {
     console.log("Votre age est de " + age1 + "ans, Donc vous etes  mineur");
     console.log("Votre age est de " + age2 + "ans, Donc vous etes  mineur");
 }
-*/
 
+
+
+/*
 //  Condition switch
 switch (true) {
     case age1 >= 18 && age2 < 18  :
@@ -38,7 +40,7 @@ switch (true) {
         console.log("Votre age est de " + age1 + "ans, Donc vous etes  mineur");
         console.log("Votre age est de " + age2 + "ans, Donc vous etes  mineur");            
 }
-
+*/
                /*********Exercice2********/
 
  // Tableau d'objet de dix etudiants
@@ -71,30 +73,12 @@ switch (true) {
   document.getElementById('etudiants').innerHTML = etudiants
   console.log(Math.max(...tableaux));
 
-
-
-
-  
-  for(let x in tableaux) {
-    console.log(tableaux[x].nom)
-  }
   
 // affichez l'etudiant qui  a la plus grande note, en bas du tableaux.
-document.getElementById('grandeNote').innerHTML = etudiants
-
-
-// filter
 
 
 
-// const paragraphe = function (nom, prenom) {
-//     prenom = prenom.toLowerCase()
-//         return nom.filter(
-//             (el) => el.name.toLowerCase().include(prenom)
-//         )
-    
-// }
-// console.log(paragraphe)
+
 
 
 
